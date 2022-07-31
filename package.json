@@ -3,17 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "clear && next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.131.0",
+    "@aws-sdk/util-dynamodb": "^3.137.0",
+    "dotenv": "^16.0.1",
     "next": "12.2.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@types/node": "^18.0.5",
+    "@types/react": "^18.0.15",
     "eslint": "8.20.0",
     "eslint-config-next": "12.2.2"
   }
